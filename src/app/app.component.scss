@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+mat-drawer {
+  width: 260px;
+
+}
+mat-drawer-container {
+  height: 100%;
+}
+
+mat-drawer {
+  background: #196fb3;
+}
+::ng-deep .mat-icon  {
+ 
+  color: #fff;
+}
+::ng-deep .mat-toolbar-row{
+  height: 8vh;
+  min-height: auto;
+}
+::ng-deep .mat-toolbar-multiple-rows{
+  height: 8vh;
+  min-height: auto;
+
+}

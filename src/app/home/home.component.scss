@@ -1,0 +1,33 @@
+.page {
+  color: white;
+  padding: 0;
+  background: #f1f5f9;
+  &__box {   
+    background: #1e293b;
+    margin: 0;
+    font-size: 16px;
+    height: 8vh;
+    padding: 5px 10px;
+  }
+  &__content {
+    min-height: calc(100vh - 178px);
+    border-radius: 10px;
+    margin-top: -2rem;
+    background: white;
+    color: black;
+    font-size: 2rem;
+   
+  }
+}
+.backgroundimage{
+ 
+  max-height: 82vh;
+  width: 100%;
+
+}
+.proceedbutton{
+  margin-left: 10px;
+  height: 35px;
+  position: relative;
+  top: -5px;
+}
